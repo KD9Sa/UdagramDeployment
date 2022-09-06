@@ -3,7 +3,7 @@ set -e
 
 eb list
 
-eb use Udagramdeployment-env
+eb use Udagramdeployment-env-1
 
 eb setenv POSTGRES_HOST=$POSTGRES_HOST
           POSTGRES_DB=$POSTGRES_DB
@@ -18,4 +18,4 @@ eb setenv POSTGRES_HOST=$POSTGRES_HOST
           AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
           URL=$URL
 
-eb deploy Udagramdeployment-env
+eb deploy Udagramdeployment-env-1
