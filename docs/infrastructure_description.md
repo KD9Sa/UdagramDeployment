@@ -26,6 +26,10 @@ The services communicate with each other as in the following diagram:
 
 <br>
 
+The pipeline is performed as in the following diagram:
+
+![image](images/Pipeline%20Overview.jpg)
+
 ## Screenshots
 
 - **AWS Elastic Beanstalk:**
@@ -54,3 +58,4 @@ The services communicate with each other as in the following diagram:
 ![image](images/CircleCi_01.png)
 ![image](images/CircleCi_02.png)
 ![image](images/CircleCi_03.png)
+![image](images/CircleCi_04.png)
